@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficios de la Energía Solar - Solar Santa Marta</title>
+    <meta name="description" content="Descubre los múltiples beneficios de la energía solar para tu hogar y negocio en Santa Marta">
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Beneficios/styles.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-orange-100 to-yellow-200">
+    <header class="sticky top-0 bg-white bg-opacity-90 backdrop-filter backdrop-blur-md shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-orange-600">Solar Santa Marta</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="/Beneficios/beneficios.html" class="text-orange-600 font-semibold">Beneficios</a>
+                <a href="/Proyectos/proyectos.html" class="text-gray-700 hover:text-orange-600 transition">Proyectos</a>
+                <a href="/instalacion/instalacion.html" class="text-gray-700 hover:text-orange-600 transition">Instalación</a>
+                <a href="/contacto/contacto.html" class="text-gray-700 hover:text-orange-600 transition">Contacto</a>
+            </div>
+            <button class="md:hidden bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">Menú</button>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl md:text-6xl font-bold text-orange-800 mb-8 text-center">
+            Beneficios de la Energía Solar
+        </h1>
+
+        <div class="flex justify-center mb-8">
+            <div class="inline-flex rounded-md shadow-sm" role="group">
+                <button type="button" class="px-4 py-2 text-sm font-medium rounded-l-lg bg-orange-500 text-white" id="residencial-tab">Residencial</button>
+                <button type="button" class="px-4 py-2 text-sm font-medium rounded-r-lg bg-white text-orange-700 hover:bg-orange-100" id="comercial-tab">Comercial</button>
+            </div>
+        </div>
+
+        <section id="benefits-section" class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <!-- Benefits cards will be dynamically inserted here -->
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-16">
+            <h2 class="text-3xl font-bold text-orange-800 mb-4 text-center">¿Listo para Aprovechar estos Beneficios?</h2>
+            <p class="text-xl text-gray-700 mb-8 text-center" id="cta-text">
+                Contáctanos hoy para una consulta gratuita y descubre cómo la energía solar puede transformar tu hogar en Santa Marta
+            </p>
+            <div class="flex justify-center">
+                <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-lg transform transition duration-500 hover:scale-110">
+                    Solicitar Consulta Gratuita
+                </button>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-r from-orange-400 to-yellow-400 rounded-lg shadow-lg p-8 mb-16 text-white">
+            <h2 class="text-3xl font-bold mb-4 text-center">¿Sabías que...?</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Ahorro a Largo Plazo</h3>
+                    <p>Con la energía solar, puedes ahorrar hasta un 70% en tu factura de electricidad durante la vida útil de tu sistema.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Retorno de Inversión Rápido</h3>
+                    <p>En Santa Marta, el retorno de inversión en sistemas solares puede ser tan corto como 3-5 años.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Solar Santa Marta</h3>
+                    <p>Transformando el futuro energético de nuestra ciudad</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Enlaces rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/Beneficios/beneficios.html" class="hover:text-orange-400 transition">Beneficios</a></li>
+                            <li><a href="/Proyectos/proyectos.html" class="hover:text-orange-400 transition">Proyectos</a></li>
+                            <li><a href="/instalacion/instalacion.html" class="hover:text-orange-400 transition">Instalación</a></li>
+                            <li><a href="/contacto/contacto.html" class="hover:text-orange-400 transition">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+                    <p>Email: info@solarsantamarta.com</p>
+                    <p>Teléfono: (57) 5 123 4567</p>
+                    <p>Dirección: Calle Solar 123, Santa Marta, Colombia</p>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2023 Solar Santa Marta. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
